@@ -1,9 +1,9 @@
 *~
-
 build
 .dep
 .project
 .cproject
 .settings/language.settings.xml
 .DS_Store
+.vscode
 workspace.code-workspace
