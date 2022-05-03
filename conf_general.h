@@ -103,7 +103,7 @@
 
 // Second revision with separate UART for NRF51
 //#define HW75_300_REV_2
-#define HW75_300_REV_3
+//#define HW75_300_REV_3
 
 //#define HW_SOURCE "hw_75_300.c"
 //#define HW_HEADER "hw_75_300.h"
@@ -264,7 +264,7 @@
  * Enable CAN-bus
  */
 #ifndef CAN_ENABLE
-#define CAN_ENABLE					1
+#define CAN_ENABLE					0
 #endif
 
 #ifdef HW_HAS_NO_CAN
