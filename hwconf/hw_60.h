@@ -297,7 +297,7 @@
 #define HW_SPI_PIN_MISO			6
 
 // SPI for DRV8301
-#if !defined(HW60_IS_MK3) && !defined(HW60_IS_MK4) && !defined(HW60_IS_MK5)
+// #if !defined(HW60_IS_MK3) && !defined(HW60_IS_MK4) && !defined(HW60_IS_MK5)
 #define DRV8301_MOSI_GPIO		GPIOC
 #define DRV8301_MOSI_PIN		12
 #define DRV8301_MISO_GPIO		GPIOC
@@ -306,16 +306,16 @@
 #define DRV8301_SCK_PIN			10
 #define DRV8301_CS_GPIO			GPIOC
 #define DRV8301_CS_PIN			9
-#else
-#define DRV8301_MOSI_GPIO		GPIOB
-#define DRV8301_MOSI_PIN		4
-#define DRV8301_MISO_GPIO		GPIOB
-#define DRV8301_MISO_PIN		3
-#define DRV8301_SCK_GPIO		GPIOC
-#define DRV8301_SCK_PIN			10
-#define DRV8301_CS_GPIO			GPIOC
-#define DRV8301_CS_PIN			9
-#endif
+// #else
+// #define DRV8301_MOSI_GPIO		GPIOB
+// #define DRV8301_MOSI_PIN		4
+// #define DRV8301_MISO_GPIO		GPIOB
+// #define DRV8301_MISO_PIN		3
+// #define DRV8301_SCK_GPIO		GPIOC
+// #define DRV8301_SCK_PIN			10
+// #define DRV8301_CS_GPIO			GPIOC
+// #define DRV8301_CS_PIN			9
+// #endif
 
 // MPU9250
 #if !defined(HW60_IS_MK4) && !defined(HW60_IS_MK5)
